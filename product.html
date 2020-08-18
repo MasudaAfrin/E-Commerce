@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/d1a487ebd2.js" crossorigin="anonymous"></script>
+    <!--Custom CSS-->
+     <link rel="stylesheet" href="css/style.css">
+
+     <!--Title of site-->
+    <title>Business|Product</title>
+  </head>
+
+  <body>
+    <!--Header section starts-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+           <div class="container">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="p-2 nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="p-2 nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                <a class="p-2 nav-link" href="#">Retail Shops</a>
+                </li>
+                <li class="nav-item">
+                    <a class="p-2 nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+           </div>
+          </nav>
+    </header>
+    <!--Header section ends-->
+    
+   
+   <!--product starts-->
+   <section class="product">
+     <div class="container">
+      <div class="row mt-5 pt-5">
+         <!--****Product Image****-->
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <ul class="imthumb">
+            <li><a href="images/bag1.jpg" target="zoomcontainer" class="thumbnail"><img src="images/thumb1.jpg" alt="thumb1"> </a></li>
+            <li><a href="images/bag2.jpg" target="zoomcontainer" class="thumbnail"><img src="images/thumb2.jpg" alt="thumb2"></a></li>
+            <li><a href="images/bag3.jpg" target="zoomcontainer" class="thumbnail"><img src="images/thumb3.jpg" alt="thumb2"></a></li>
+          </ul>
+        <div class="zoomcontainer">
+          <div id="lens"></div>
+          <img src="images/bag1.jpg" alt="bag1" class="img-fluid" id="pro-img">
+        </div>         
+        </div>
+      
+      <!--***Product Image Zoom*****-->
+        <!-- <div class="col-md-3">
+          <div id="imagezoom">
+          </div>          
+        </div> -->
+      <!--********-->
+
+      <!--***Product Description*****-->
+       <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="product-intro">
+            <h2>Product</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+           <div class="form-group">
+             <label for="cart-quantity">Quantity</label>
+             <input type="number" class="form-control" placeholder="0" id="cart-quantity">
+             <a href="#" class="btn btn-primary" id="cart">Add to Cart</a>
+           </div>
+      </div>
+      </div>
+     </div>
+   </section>
+   <section class="product-description">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-9">
+          <div class="pro-des">
+            <div class="btn-container">
+              <button onclick="displayPanel(0)">Description</button>
+              <button onclick="displayPanel(1)">Specification</button>
+              <button onclick="displayPanel(2)">Reviews</button>
+            </div>
+            <div class="panelitem">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent tristique magna sit amet. Commodo odio aenean sed adipiscing diam. Tincidunt tortor aliquam nulla facilisi cras. Et tortor consequat id porta. Sollicitudin nibh sit amet commodo nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent tristique magna sit amet. Commodo odio aenean sed adipiscing diam. Tincidunt tortor aliquam nulla facilisi cras. Et tortor consequat id porta. Sollicitudin nibh sit amet commodo nulla. Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            </div>
+            <div class="panelitem">
+              <ul class="specification">
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+              </ul>
+            </div>
+            <div class="panelitem">
+             <div class="comment">
+              <form action="" method="">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" id="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" email="email" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="review">Your Review</label>
+                  <textarea name="review" id="review" rows="4" class="form-control" style="resize: none;"></textarea>
+                </div>
+                <div class="stars">
+                  <ul class="nav">
+                    <li><i class="fas fa-star" id="st1"></i></li>
+                    <li><i class="fas fa-star" id="st2"></i></li>
+                    <li><i class="fas fa-star" id="st3"></i></li>
+                    <li><i class="fas fa-star" id="st4"></i></li>
+                    <li><i class="fas fa-star" id="st5"></i></li>
+                  </ul>
+                </div>
+                <input type="submit" value="Submit" id="submit">
+             </form>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!--JS-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/tab.js"></script>
+    <script src="js/imagezoom.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('#st1').click(function(){
+            $('.fa-star').css("color","black");
+            $('#st1').css("color","yellow");
+          });
+          $('#st2').click(function(){
+            $('.fa-star').css("color","black");
+            $('#st2,#st1').css("color","yellow");
+          });
+          $('#st3').click(function(){
+            $('.fa-star').css("color","black");
+            $('#st3,#st2,#st1').css("color","yellow");
+          });
+          $('#st4').click(function(){
+            $('.fa-star').css("color","black");
+            $('#st4,#st3,#st2,#st1').css("color","yellow");
+          });
+          $('#st5').click(function(){
+            $('.fa-star').css("color","black");
+            $('#st5,#st4,#st3,#st2,#st1').css("color","yellow");
+          });
+        });
+    </script>
+  </body>
+</html>

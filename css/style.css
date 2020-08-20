@@ -62,13 +62,6 @@
     width: 1000px;
     height: 450px;
 }
-.sidebar{
-    padding: 12px 50px;
-    box-sizing: border-box;
-    background: #f7f7f7;
-    border-radius: 3px;
-    border:2px solid skyblue;
-}
 .products h2{
     text-align: center;
 }
@@ -79,19 +72,11 @@
     padding: 5px 0 25px;
     text-transform: uppercase;
 }
-aside ul{
-    list-style: none;
-    margin-left: -40px !important;
-}
+
 .gallery{
     position: relative;
 }
-.gallery img{
-    width: 250px;
-    height: 300px;
-    cursor: pointer;
-    border: 2px solid skyblue;
-}
+
 .gallery ul{
     position: absolute;
     bottom: 30%;
@@ -168,8 +153,8 @@ ul.imthumb li img{
 #lens{
     position: absolute;
     z-index: 3;
-    width: 120px;
-    height:120px;
+    width: 250px;
+    height:180px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     cursor: none;
     visibility: hidden;
